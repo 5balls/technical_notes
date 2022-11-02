@@ -11,3 +11,14 @@ PAT renewing
 #. Add and commit changes
 #. ``git config --global credential.helper store``
 #. Push and enter credentials
+
+Add repo to github
+..................
+
+#. Login to github
+#. Create repo with same name as locally
+#. Edit code to have something to push
+#. Add and commit changes
+#. Copy link to repo from github
+#. ``git remote add origin <repo>``
+#. ``git push --set-upstream origin master``
