@@ -22,3 +22,24 @@ Add repo to github
 #. Copy link to repo from github
 #. ``git remote add origin <repo>``
 #. ``git push --set-upstream origin master``
+
+Manually create and apply patches
+.................................
+
+Create last <n> number of patches from topmost commits with
+
+``git format-patch -<n>``
+
+Apply three way merge
+
+``git am -3 < file.patch``
+
+Resolve merge conflict
+
+``git mergetool``
+
+If the apply fails because it doesn't find sha1 number
+
+``git remote add old_repo <url>``
+``git fetch old_repo``
+
