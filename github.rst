@@ -12,6 +12,8 @@ PAT renewing
 #. ``git config --global credential.helper store``
 #. Push and enter credentials
 
+Is this still true?
+
 Add repo to github
 ..................
 
