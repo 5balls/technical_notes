@@ -1,6 +1,11 @@
 cli tool tea for accessing gitea
 --------------------------------
 
+Documentation
+.............
+
+Documentation at https://gitea.com/gitea/tea/src/branch/main/docs/CLI.md seems to be more up to date than the in build help of the command.
+
 Cheat-Sheet
 ...........
 
